@@ -1,10 +1,10 @@
 {
-    "name": "antoine37120/notifier",
-    "description": "Notifier plugin for CakePHP fork",
+    "name": "bakkerij/notifier",
+    "description": "Notifier plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.4.16",
-        "cakephp/cakephp": "3.8.*"
+        "cakephp/cakephp": "3.5.*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Antoine37120\\Notifier\\": "src"
+            "Bakkerij\\Notifier\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Antoine37120\\Notifier\\Test\\": "tests",
+            "Bakkerij\\Notifier\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
