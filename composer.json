@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "antoine37120\\Notifier\\": "src"
+            "Antoine37120\\Notifier\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "antoine37120\\Notifier\\Test\\": "tests",
+            "Antoine37120\\Notifier\\Test\\": "tests",
             "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
